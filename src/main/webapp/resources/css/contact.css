@@ -1,0 +1,131 @@
+.row{
+max-width: 1140px;
+margin: 0 auto;
+}
+.contact-class{
+  margin-top: 100px;
+  padding-left: 270px;
+  width: 100%;
+}
+.about{
+  color: #fff;
+  font-size: 30px;
+}
+.section-heading{
+  font-size: 300%;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.section-sub-heading{
+  font-size: 150%;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.section-sub-heading:after{
+display: block;
+height: 2px;
+width: 200px;
+background-color:#0F2E03;
+content:" ";
+margin:25px auto 0 auto;
+}
+.contact-section{
+  text-align: center;
+  height: 1100px;
+  background-color: black;
+}
+.contact-portfolio{
+  margin-top: 15px;
+  list-style: none;
+  width: 100%;
+  color: #fff;
+}
+.contact-portfolio li{
+  display:inline-block;
+  width: 25%;
+}
+.portfolio-image{
+  background-color: black;
+  overflow: hidden;
+}
+
+.portfolio-image img{
+   width: 70%;
+   height: 300px;
+   opacity:.5;
+}
+.portfolio-image img:hover{
+transform: scale(1.0);
+opacity:1;
+}
+.contact-para{
+  color: #fff;
+  font-weight: 450px;
+  font-size: 18px;
+}
+.container{
+  margin-top: 30px;
+  font-size: 40px;
+  font-style: italic;
+}
+/***   NAVIGATION    ***/
+.main-nav{
+list-style: none;
+float: right;
+margin-top: 20px;
+
+}
+.logo{
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.main-nav li{
+  
+   display: inline-block; 
+   margin-right:30px;
+   margin-top: 20px;
+   text-transform:uppercase ;
+}
+.main-nav li a:link{
+  text-decoration:none;
+   color: #fff;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	text-decoration:none;
+   color: #fff;
+   -webkit-transition: border-bottom 0.3s;
+   transition: border-bottom 0.3s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+border-bottom: 3px solid #fff;
+color: #3ECA4E;
+}
+
+.sticky-nav {
+	position:fixed;
+	left:0;
+	top:0;
+	background-color:rgba(0,0,0,.5);
+	width: 100%;
+}
+
+.sticky-nav .logo{
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.sticky-nav .main-nav{
+margin-top: 12px;
+}
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited{
+  color: #fff;
+  padding: 5px 0;
+}

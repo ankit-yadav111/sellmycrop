@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.para{
+background-image:linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.8)),url(img/about.jpg);
+  height: 1000px;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.about-para{
+  margin-top: 100px;
+  font-family: cursive;
+  color: #fff;
+}
+
+/***   NAVIGATION    ***/
+.main-nav{
+list-style: none;
+float: right;
+margin-top: 20px;
+
+}
+.logo{
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.main-nav li{
+  
+   display: inline-block; 
+   margin-right:30px;
+   margin-top: 20px;
+   text-transform:uppercase ;
+}
+.main-nav li a:link{
+  text-decoration:none;
+   color: #fff;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	text-decoration:none;
+   color: #fff;
+   -webkit-transition: border-bottom 0.3s;
+   transition: border-bottom 0.3s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+border-bottom: 3px solid #fff;
+color: #3ECA4E;
+}
+
+.sticky-nav {
+	position:fixed;
+	left:0;
+	top:0;
+	background-color:rgba(0,0,0,.5);
+	width: 100%;
+}
+
+.sticky-nav .logo{
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.sticky-nav .main-nav{
+margin-top: 12px;
+}
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited{
+  color: #fff;
+  padding: 5px 0;
+}
